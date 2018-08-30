@@ -65,7 +65,7 @@ class MemberCard extends Component {
 
     render() {
         return (
-            <Card fluid>
+            <Card color={'blue'} fluid>
                 <Card.Content header={this.props.hof.famNum + '. ' + this.generateHOFName(this.props.hof.memberName)}/>
                 <Card.Content>
                     <Grid stackable>

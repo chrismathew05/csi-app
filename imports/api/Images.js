@@ -2,7 +2,7 @@ import { FilesCollection } from 'meteor/ostrio:files';
 import SimpleSchema from "simpl-schema";
 
 const Images = new FilesCollection({
-    storagePath: 'assets/app/uploads/Images',
+    storagePath: '/data/images/',
     // downloadRoute: '/Images/',
     collectionName: 'Images',
     permissions: 0o755,

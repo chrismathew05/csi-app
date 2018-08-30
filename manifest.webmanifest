@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "Logo",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "logo.png",
+      "sizes": "112x112",
+      "type": "image/png"
+    }
+  ],
+  "name": "Directory",
+  "short_name": "Directory",
+  "start_url": "/"
+}
