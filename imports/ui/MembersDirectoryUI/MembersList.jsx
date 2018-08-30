@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 import {withTracker} from 'meteor/react-meteor-data';
 import PropTypes from 'prop-types';
 
-import {Input, List, Loader, Icon} from 'semantic-ui-react';
+import {Input, List, Loader, Icon, Message} from 'semantic-ui-react';
 
 // Component imports
 import {Members} from '../../api/Members.js';
@@ -53,12 +53,25 @@ class MembersList extends Component {
             }
         }
 
-        return hofList.map(hof => (
-            <List.Item key={hof._id}>
-                <MemberCard hof={hof} members={this.props.members}/>
-                <br/>
-            </List.Item>
-        ));
+        if (hofList.length > 0) {
+            return hofList.map(hof => (
+                <List.Item key={hof._id}>
+                    <MemberCard hof={hof} members={this.props.members}/>
+                    <br/>
+                </List.Item>
+            ));
+        } else {
+            return (
+                <Message icon>
+                    <Icon name='inbox' />
+                    <Message.Content>
+                        <Message.Header>No members found!</Message.Header>
+                        There are no matches for the query you entered.
+                    </Message.Content>
+                </Message>
+            );
+        }
+
     };
 
     handleChange = (e, {name, value}) => {
