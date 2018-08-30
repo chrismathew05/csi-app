@@ -60,7 +60,6 @@ class MemberCard extends Component {
     generateMapsLink = (address) => {
         let encodedURL = address.trim().split(' ').join('+');
         encodedURL = 'https://www.google.com/maps/dir/?api=1&destination=' + encodedURL + '&dir_action=navigate&travelmode=driving';
-        console.log(encodedURL);
         return <a href={encodedURL}>{address}</a>;
     };
 
