@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aca1b118-387b-4139-95e9-a807ab034055" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/main.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/imports/api/Images.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/Images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/ui/MembersDirectoryUI/MemberCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/imports/ui/MembersDirectoryUI/MemberCard.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +57,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="16" />
-          <entry key="js" value="942" />
+          <entry key="js" value="955" />
           <entry key="json" value="11" />
           <entry key="jsx" value="9518" />
           <entry key="webmanifest" value="28" />
@@ -70,7 +68,7 @@
           <entry key="HTML" value="16" />
           <entry key="JSON" value="39" />
           <entry key="JSX Harmony" value="9518" />
-          <entry key="JavaScript" value="942" />
+          <entry key="JavaScript" value="955" />
         </counts>
       </usages-collector>
     </session>
@@ -90,10 +88,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/imports/ui/MembersDirectoryUI/MemberCard.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
+            <state relative-caret-position="69">
               <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding>
                 <element signature="e#29#68#0" expanded="true" />
@@ -120,11 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/imports/api/Images.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="299">
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -183,10 +181,10 @@
         <option value="$PROJECT_DIR$/imports/api/HOF.js" />
         <option value="$PROJECT_DIR$/imports/api/Members.js" />
         <option value="$PROJECT_DIR$/imports/ui/MembersDirectoryUI/MembersList.jsx" />
-        <option value="$PROJECT_DIR$/imports/api/Images.js" />
         <option value="$PROJECT_DIR$/manifest.webmanifest" />
         <option value="$PROJECT_DIR$/client/main.html" />
         <option value="$PROJECT_DIR$/imports/ui/MembersDirectoryUI/MemberCard.jsx" />
+        <option value="$PROJECT_DIR$/imports/api/Images.js" />
       </list>
     </option>
   </component>
@@ -308,18 +306,18 @@
       <workItem from="1535033627656" duration="4712000" />
       <workItem from="1535074933149" duration="103181000" />
       <workItem from="1535664208197" duration="65000" />
-      <workItem from="1535665790935" duration="2415000" />
+      <workItem from="1535665790935" duration="3083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112745000" />
+    <option name="totallyTimeSpent" value="113413000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.164297" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.164297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -331,7 +329,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3227223" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.4270033" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -497,16 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imports/api/Images.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -523,10 +511,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/imports/ui/MembersDirectoryUI/MemberCard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
+        <state relative-caret-position="69">
           <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <element signature="e#29#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/imports/api/Images.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
