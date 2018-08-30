@@ -1,0 +1,28 @@
+/* tablet and higher */
+@media (min-width:500px){
+  .fully-centred {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);
+    width: 30%;
+  }
+}
+
+/* mobile */
+@media (max-width:499px) {
+  #navBar {
+    margin: 0;
+    padding: 0;
+  }
+
+  table {
+    table-layout: fixed;
+  }
+
+  td, th {
+    font-size: 8pt;
+    word-wrap: break-word;
+  }
+}
