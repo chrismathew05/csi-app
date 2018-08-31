@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="aca1b118-387b-4139-95e9-a807ab034055" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/packages" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.meteor/versions" beforeDir="false" afterPath="$PROJECT_DIR$/.meteor/versions" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/imports/api/Images.js" beforeDir="false" afterPath="$PROJECT_DIR$/imports/api/Images.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -361,16 +357,15 @@
       <workItem from="1535033627656" duration="4712000" />
       <workItem from="1535074933149" duration="103181000" />
       <workItem from="1535664208197" duration="65000" />
-      <workItem from="1535665790935" duration="4949000" />
+      <workItem from="1535665790935" duration="5685000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115279000" />
+    <option name="totallyTimeSpent" value="116015000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.164297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
