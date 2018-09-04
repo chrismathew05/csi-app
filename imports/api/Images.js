@@ -2,10 +2,10 @@ import { FilesCollection } from 'meteor/ostrio:files';
 import SimpleSchema from "simpl-schema";
 
 const Images = new FilesCollection({
-    storagePath: Meteor.rootPath + '/images',
-    // downloadRoute: '/Images/',
     collectionName: 'Images',
-    permissions: 0o755,
+    storagePath: 'data/images',
+    parentDirPermissions: 0o774,
+    permissions: 0o774,
     allowClientCode: false,
     cacheControl: 'public, max-age=31536000',
     onbeforeunloadMessage() {
